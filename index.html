@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="一个可直接部署到 GitHub Pages 的个人主页模板，包含个人介绍、项目、联系方式。"
+    />
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="logo" href="#">YourName</a>
+        <ul>
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#projects">项目</a></li>
+          <li><a href="#contact">联系</a></li>
+        </ul>
+      </nav>
+      <section class="hero-content container">
+        <p class="tag">👋 你好，我是</p>
+        <h1>你的名字</h1>
+        <p class="lead">
+          这是一个可直接放到 GitHub 仓库并用 GitHub Pages 发布的个人网站。
+          你可以在几分钟内替换成自己的内容。
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">查看作品</a>
+          <a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="section container">
+        <h2>关于我</h2>
+        <p>
+          我专注于 Web 开发与自动化，喜欢把复杂问题做成简单易用的产品。
+          这个模板是纯静态页面，无需构建工具，适合新手快速上手。
+        </p>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>项目展示</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>项目 A</h3>
+            <p>一句话介绍你的项目亮点、技术栈和成果。</p>
+            <a href="#" aria-label="查看项目 A">查看详情 →</a>
+          </article>
+          <article class="card">
+            <h3>项目 B</h3>
+            <p>可以放 Demo 链接、仓库链接或截图说明。</p>
+            <a href="#" aria-label="查看项目 B">查看详情 →</a>
+          </article>
+          <article class="card">
+            <h3>项目 C</h3>
+            <p>强调你在项目中承担的角色与价值。</p>
+            <a href="#" aria-label="查看项目 C">查看详情 →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>联系我</h2>
+        <p>欢迎通过以下方式联系：</p>
+        <ul class="contact-list">
+          <li>Email：you@example.com</li>
+          <li>GitHub：github.com/yourname</li>
+          <li>X / 微博 / 微信：@yourhandle</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> 你的名字. Built with GitHub Pages.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
